@@ -35,6 +35,7 @@ body {
     color: var(--color-dark);
     line-height: 1.7;
     background: var(--color-white);
+    /* background: black; */
 }
 
 .container {
@@ -156,3 +157,59 @@ nav button {
     align-items: center;
     gap: 3rem;
 }
+
+/* -------------------HEADER-------------------- */
+header {
+    background: url(./images/header\ bg.jpg)no-repeat top center/100vh;
+    max-width: 100vh;
+    text-align: center;
+    padding-bottom: var(--bottom-section-padding);
+}
+
+.header__title {
+    padding-top: 12rem;
+    color: var(--color-white);
+}
+
+header p {
+    color: rgba(255, 255, 255, 0.8);
+    margin-bottom: 0;
+}
+
+.header__image {
+    width: 92%;
+    margin: auto 0;
+}
+
+.cta {
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+}
+
+.cta a {
+    display: flex;
+    align-items: center;
+    gap: 4rem;
+    text-align: left;
+    font-weight: 400;
+    background: black;
+    border-radius: 0.7rem;
+    padding: 0.8rem 1.6rem;
+}
+
+.cta a:hover {
+    background: var(--color-black);
+    color: var(--color-white);
+}
+
+.cta .logo{
+    width: 2rem;
+}
+
+.cta a h4 {
+    font-weight: 500;
+    font-size: 1.4rem;
+}
+
+.header

@@ -212,4 +212,22 @@ header p {
     font-size: 1.4rem;
 }
 
-.header
+.header__socials {
+    position: absolute;
+    left: 3rem;
+    top: 38%;
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+    font-size: 1.2rem;
+}
+
+.header__decorator-1 {
+    position: absolute;
+}
+
+.header__decorator-2 {
+    position: absolute;
+    right: 0;
+    margin-top: -24rem;
+}

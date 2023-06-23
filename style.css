@@ -7,7 +7,7 @@
     --color-black: #575757;
 
     --bottom-section-padding: 12rem;
-    --bottom-section-padding-padding: 8rem;
+    --bottom-section-padding-mobile: 8rem;
 
     --transition: all 400ms ease;
 
@@ -489,4 +489,105 @@ footer ul li a:hover {
     padding: 1.2rem;
     color: var(--color-white);
     border-top: 1px solid var(--color-light);
+}
+
+/* -------------------MEDIA QUERIES (TABLET)-------------------- */
+@media screen and (max-width: 1024px) {
+    .container {
+        width: var(--container-width-table);
+    }
+
+    h1 {
+        font-size: 4.2rem;
+    }
+
+    h2 {
+        font-size: 2rem;
+    }
+
+    h3 {
+        font-size: 1.9rem;
+    }
+
+    .lead {
+        width: 72%;
+        margin-bottom: 3rem;
+    }
+
+    section{
+        padding-bottom: var(--bottom-section-padding-mobile);
+    }
+
+    nav {
+        background: var(--color-primary);
+    }
+
+    .nav__container {
+        position: relative;
+        width: 100vw;
+    }
+    .nav__logo {
+        margin-left: 2rem;
+        position: relative;
+    }
+
+    .nav__items {
+        position: fixed;
+        top: 6rem;
+        right: 0;
+        background: var(--color-white);
+        height: max-content;
+        width: 18rem;
+        box-shadow: -2rem 2rem 3rem rgba(0, 0, 0, 0.2);
+        flex-direction: column;
+        gap: 0;
+        z-index: 3;
+    }
+
+    .nav__items li {
+        width: 100%;
+        height: 6rem;
+    }
+
+    .nav__items li a {
+        color: var(--color-black);
+        width: 100%;
+        height: 100%;
+        display: block;
+        padding-left: 3rem;
+        display: flex;
+        align-items: center;
+        transition: var(--transition);
+    }
+
+    .nav__items li a:hover{
+        background: var(--color-primary);
+        color: white;
+    }
+
+    .nav__signin-signup {
+        display: none;
+    }
+
+    .nav__logo {
+        position: relative;
+        left: 0;
+        transform: translate(0);
+    }
+
+    nav button {
+        display: inline-block;
+        margin-right: 1.4rem;
+        background: transparent;
+        color: var(--color-white);
+        cursor: pointer;
+    }
+
+    nav button#close-btn {
+        display: none;
+    }
+
+    nav button i {
+        font-size: 2.4rem;
+    }
 }

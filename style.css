@@ -618,4 +618,47 @@ footer ul li a:hover {
     .header__decorator-2 {
         display: none;
     }
+
+    #about {
+        margin-top: 7rem;
+    }
+
+    .about__article {
+        margin: 0 auto;
+    }
+
+    .clients__container {
+        gap: 1rem;
+    }
+
+    .testimonials__container {
+        grid-template-columns: 1fr;
+        gap: 1rem;
+    }
+
+    #download {
+        text-align: center;
+    }
+
+    #download .cta {
+        flex-direction: column;
+        gap: 1rem;
+        margin: 0 auto;
+    }
+
+    .subscribe__container {
+        flex-direction: column;
+        height: auto;
+        gap: 5rem;
+        padding: 3rem;
+        font-size: 1.2rem;
+    }
+
+    .subscribe__container p {
+        width: 94%;
+    }
+
+    .footer__container {
+        grid-template-columns: 1fr 1fr;
+    }
 }

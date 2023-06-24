@@ -79,3 +79,16 @@ nav {
     color: var(--color-white);
     cursor: pointer;
 }
+
+#contact form button:hover{
+    background: var(--color-light);
+    color: var(--color-dark);
+}
+
+/* -------------------CONTACT MEDIA QUERIES-------------------- */
+@media screen and (max-width: 600px) {
+    #contact .container {
+        grid-template-columns: 1fr;
+        gap: 2rem;
+    }
+}

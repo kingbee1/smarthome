@@ -1,6 +1,6 @@
 :root {
-    --color-primary: #1e5afa;
-    --color-primary-variant: rgba(0, 0, 240, 0.2);
+    --color-primary: #fa1eb1;
+    --color-primary-variant: rgba(240, 0, 172, 0.2);
     --color-white: #fff;
     --color-light: #f4f4f4;
     --color-dark: #000f37;
@@ -165,7 +165,7 @@ nav button {
 
 /* -------------------HEADER-------------------- */
 header {
-    background: url(./images/header\ bg.jpg)no-repeat top center/100vw;
+    background: url(./images/header_bg.jpg)no-repeat top center/100vw;
     max-width: 100vw;
     text-align: center;
     padding-bottom: var(--bottom-section-padding);
@@ -231,11 +231,11 @@ header p {
     position: absolute;
 }
 
-.header__decorator-2 {
+/* .header__decorator-2 {
     position: absolute;
     right: 0;
     margin-top: -24rem;
-}
+} */
 
 /* -------------------ABOUT-------------------- */
 .about__title {
